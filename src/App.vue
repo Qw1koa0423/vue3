@@ -2,7 +2,7 @@
  * @Author: 刘浩奇 liuhaoqi@yaozai.net
  * @Date: 2023-06-06 09:15:22
  * @LastEditors: 刘浩奇 liuhaoqi@yaozai.net
- * @LastEditTime: 2023-06-06 14:59:43
+ * @LastEditTime: 2023-06-06 15:39:38
  * @FilePath: \vue3\src\App.vue
  * @Description: 
  * 
@@ -26,6 +26,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/ref">Ref</RouterLink>
         <RouterLink to="/reactive">Reactive</RouterLink>
         <RouterLink to="/toRef">toRef</RouterLink>
+        <RouterLink to="/computed">Computed</RouterLink>
       </nav>
     </div>
   </header>

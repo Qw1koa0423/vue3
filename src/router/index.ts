@@ -37,6 +37,11 @@ const router = createRouter({
       path: '/toRef',
       name: 'toRef',
       component: () => import('../views/ToRefView.vue')
+    },
+    {
+      path: '/computed',
+      name: 'computed',
+      component: () => import('../views/ComputedView.vue')
     }
     // {
     //   path: '/about',
