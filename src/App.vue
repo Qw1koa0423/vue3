@@ -2,7 +2,7 @@
  * @Author: 刘浩奇 liuhaoqi@yaozai.net
  * @Date: 2023-06-06 09:15:22
  * @LastEditors: 刘浩奇 liuhaoqi@yaozai.net
- * @LastEditTime: 2023-06-06 13:42:48
+ * @LastEditTime: 2023-06-06 14:59:43
  * @FilePath: \vue3\src\App.vue
  * @Description: 
  * 
@@ -25,6 +25,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/diff">Diff算法</RouterLink>
         <RouterLink to="/ref">Ref</RouterLink>
         <RouterLink to="/reactive">Reactive</RouterLink>
+        <RouterLink to="/toRef">toRef</RouterLink>
       </nav>
     </div>
   </header>

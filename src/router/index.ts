@@ -32,6 +32,11 @@ const router = createRouter({
       path: '/reactive',
       name: 'reactive',
       component: () => import('../views/ReactiveView.vue')
+    },
+    {
+      path: '/toRef',
+      name: 'toRef',
+      component: () => import('../views/ToRefView.vue')
     }
     // {
     //   path: '/about',
