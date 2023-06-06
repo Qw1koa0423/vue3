@@ -1,3 +1,13 @@
+<!--
+ * @Author: 刘浩奇 liuhaoqi@yaozai.net
+ * @Date: 2023-06-06 09:15:22
+ * @LastEditors: 刘浩奇 liuhaoqi@yaozai.net
+ * @LastEditTime: 2023-06-06 13:42:48
+ * @FilePath: \vue3\src\App.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by 遥在科技, All Rights Reserved. 
+-->
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
@@ -13,6 +23,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/template">模板语法</RouterLink>
         <RouterLink to="/diff">Diff算法</RouterLink>
+        <RouterLink to="/ref">Ref</RouterLink>
       </nav>
     </div>
   </header>
