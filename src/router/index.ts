@@ -7,6 +7,11 @@ const router = createRouter({
       path: '/template',
       name: 'template',
       component: () => import('../views/TemplateView.vue')
+    },
+    {
+      path: '/diff',
+      name: 'diff',
+      component: () => import('../views/DiffView.vue')
     }
     // {
     //   path: '/about',

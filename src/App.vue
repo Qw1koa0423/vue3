@@ -12,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/template">模板语法</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/diff">Diff算法</RouterLink>
       </nav>
     </div>
   </header>
