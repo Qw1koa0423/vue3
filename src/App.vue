@@ -24,6 +24,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/template">模板语法</RouterLink>
         <RouterLink to="/diff">Diff算法</RouterLink>
         <RouterLink to="/ref">Ref</RouterLink>
+        <RouterLink to="/reactive">Reactive</RouterLink>
       </nav>
     </div>
   </header>

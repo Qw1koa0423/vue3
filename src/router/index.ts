@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/ref',
       name: 'ref',
       component: () => import('../views/RefView.vue')
+    },
+    {
+      path: '/reactive',
+      name: 'reactive',
+      component: () => import('../views/ReactiveView.vue')
     }
     // {
     //   path: '/about',
